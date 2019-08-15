@@ -1,5 +1,5 @@
 # csdn-opt
-csdn blog网站chrome插件，用于优化csdn博客网站用户体验
+csdn blog体验越来越差了！！！做了一个chrome插件，用于优化csdn博客网站用户体验。
 
 ## 功能点:  
 1.自动点击展开阅读全文按钮  
