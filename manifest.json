@@ -1,0 +1,26 @@
+{
+  "manifest_version": 2,
+  "name": "csdn-opt",
+  "description": "csdn博客网站优化,功能:1.自动点击展开阅读全文按钮 2.去除复制文字后面追加的版权信息 3.去除广告",
+  "version": "1.0",
+  "icons": {
+    "128": "icon.png"
+  },
+  "permissions": [
+    "tabs",
+    "http://*/*",
+    "https://*/*"
+  ],
+  "content_scripts": [
+    {
+      "js": [
+        "inject.js"
+      ],
+      "matches": [
+        "<all_urls>"
+      ],
+      "run_at": "document_end"
+    }
+  ],
+  "web_accessible_resources": ["csdn-opt.js"]
+}
